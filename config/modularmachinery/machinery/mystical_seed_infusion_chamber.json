@@ -1,0 +1,585 @@
+{
+	"registryname": "mystical_seed_infusion_chamber",
+	"localizedname": "Mystical Seed Infusion Chamber",
+	"requires-blueprint": true,
+	"color": "0d6605",
+	"modifiers": [
+		{
+			"elements": "mysticalagriculture:inferium_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Inferium Seed Reprocessor to increase the processing speed and decrease power usage by 20%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.8
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.8
+                }
+			]
+		},
+		{
+			"elements": "mysticalagriculture:prudentium_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Prudentium Seed Reprocessor to increase the processing speed and decrease power usage by 30%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.7
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.7
+                }
+			]
+		},
+		{
+			"elements": "mysticalagriculture:intermedium_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Intermedium Seed Reprocessor to increase the processing speed and decrease power usage by 50%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.5
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.5
+                }
+			]
+		},
+		{
+			"elements": "mysticalagriculture:superium_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Superium Seed Reprocessor to increase the processing speed and decrease power usage by 75%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.25
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.25
+                }
+			]
+		},
+		{
+			"elements": "mysticalagriculture:supremium_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Supremium Seed Reprocessor to increase the processing speed and decrease power usage by 90%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.1
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.1
+                }
+			]
+		},
+		{
+			"elements": "mysticalagriculture:ultimate_reprocessor",
+			"x": 0,
+			"y": -1,
+			"z": 1,
+			"description": "Replace the Seed Reprocessor with an Ultimate Seed Reprocessor to increase the processing speed and decrease power usage by 95%.",
+			"modifiers": [
+				{
+					"io": "input",
+					"target": "duration",
+					"operation": 1,
+					"multiplier": 0.01
+				},
+				{
+                    "io": "input",
+                    "target": "energy",
+                    "operation": 1,
+                    "multiplier": 0.01
+                }
+			]
+		}
+	],
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@5"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:seed_reprocessor"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "mysticalagriculture:growth_accelerator@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:dirt"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+		{
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "extrautils2:decorativeglass@3"
+            ]
+        }
+    ]}
